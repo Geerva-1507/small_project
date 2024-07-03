@@ -21,7 +21,6 @@ const firebaseConfig = {
   async function loginUsingEmailAndPassword(email, password) {
     try{
       await signInWithEmailAndPassword(auth, email, password);
-      return true;
     }
     catch(error){
       console.log(error);

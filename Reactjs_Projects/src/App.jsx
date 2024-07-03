@@ -20,6 +20,7 @@ import Quizapp from './components/17.Quizapp/Quizapp';
 import NestedComments from './components/18.NestedComments/index';
 import PDFViewer from './components/19.PDFViewer/PDFViewer';
 import FirebaseTodo from './components/20. FirebaseTodo/index';
+import  FirebaseAuth from './components/21. FirebaseAuth/index';
 
 
 
@@ -48,6 +49,7 @@ function App() {
       <NestedComments />
       <PDFViewer />
       <FirebaseTodo />
+      <FirebaseAuth />
       
     </div>
   )
